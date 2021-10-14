@@ -10,7 +10,7 @@ on:
       delete:
         description: "clean tag and release"
         required: true
-        default: false
+        default: "true"
 
 jobs:
   init:
