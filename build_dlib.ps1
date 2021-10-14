@@ -22,7 +22,7 @@ function BuildForWindows($platform, $build_type) {
         -D DLIB_GIF_SUPPORT=ON `
         -D DLIB_PNG_SUPPORT=ON `
         -D DLIB_JPEG_SUPPORT=ON `
-        -D DLIB_USE_CUDA=OFF `
+        -D DLIB_USE_CUDA=OFF ../dlib
 
     msbuild INSTALL.vcxproj /t:build /p:configuration=$build_type /p:platform=$msbuild_platform -maxcpucount
     ls
