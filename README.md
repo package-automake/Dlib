@@ -10,6 +10,8 @@ A method for building Dlib with GitHub Actions.
 4. Finally click the `Run workflow` button in the bottom.
 5. When build completed, the artifacts will upload to releases that you can download whenever.
 
-![flow](https://github.com/yuzuhakuon/DLib/raw/master/doc/01.jpg "flow")
+## Result
 
-![release](https://github.com/yuzuhakuon/DLib/raw/master/doc/02.jpg "release")
+![flow](https://raw.githubusercontent.com/yuzuhakuon/Dlib/main/doc/01.jpg "flow")
+
+![release](https://raw.githubusercontent.com/yuzuhakuon/Dlib/main/doc/02.jpg "release")
