@@ -7,10 +7,6 @@ on:
         description: "choice a dlib version tag"
         required: true
         default: "v19.22"
-      delete:
-        description: "clean tag and release"
-        required: true
-        default: "true"
 
 jobs:
   init:
@@ -19,7 +15,6 @@ jobs:
       output1: "${{ steps.create_release.outputs.upload_url }}"
     steps:
       - uses: dev-drprasad/delete-tag-and-release@v0.2.0
-        if: ${{ github.event.inputs.delete }}
         with:
           delete_release: true # default: false
           tag_name: ${{ github.event.inputs.tag }} # tag name to delete
