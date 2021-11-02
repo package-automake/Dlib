@@ -40,7 +40,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           tag_name: ${{ github.event.inputs.tag }}
-          release_name: OpenCV-${{ github.event.inputs.tag }}
+          release_name: Dlib-${{ github.event.inputs.tag }}
           draft: false
           prerelease: false
 
