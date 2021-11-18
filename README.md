@@ -12,6 +12,4 @@ A method for building Dlib with GitHub Actions.
 
 ## Result
 
-![flow](https://raw.githubusercontent.com/yuzuhakuon/Dlib/main/doc/01.jpg "flow")
-
-![release](https://raw.githubusercontent.com/yuzuhakuon/Dlib/main/doc/02.jpg "release")
+[Actions](https://github.com/yuzuhakuon/Dlib/actions)
